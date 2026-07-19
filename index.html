@@ -988,6 +988,52 @@
       }
     }
 
+  
+    /* ---------- closing card: mobile readability fix ---------- */
+    @media (max-width: 640px) {
+      .closing.closing-with-character {
+        position: relative;
+        display: block;
+        padding: 22px 18px 104px;
+        font-size: 13.5px;
+        line-height: 1.85;
+      }
+
+      .closing.closing-with-character > div {
+        width: 100%;
+      }
+
+      .closing.closing-with-character strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 1.75;
+      }
+
+      .closing.closing-with-character img {
+        position: absolute;
+        right: 14px;
+        bottom: 10px;
+        width: 72px;
+        max-height: 86px;
+        object-fit: contain;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .closing.closing-with-character {
+        padding: 20px 16px 96px;
+        font-size: 13px;
+      }
+
+      .closing.closing-with-character img {
+        right: 10px;
+        bottom: 8px;
+        width: 66px;
+        max-height: 80px;
+      }
+    }
+
   </style>
 </head>
 
